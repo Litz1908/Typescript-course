@@ -1,4 +1,6 @@
-export class Calculator {
+export class Calculator 
+//export class Account
+{
 
     private total: number;
     
@@ -9,4 +11,5 @@ export class Calculator {
     get total() { (property)Calculator._total: number
         return this._total;
     }
+    
 }
