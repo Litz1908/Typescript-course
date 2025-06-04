@@ -17,7 +17,7 @@ test('Deposit, then withdraw', ()=> {
 
     account.deposit(10);
 
-    account.withdraw(5);
+    account.withdraw(4);
 
     expect(account.balance).toEqual(6);
 })
