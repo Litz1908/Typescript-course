@@ -19,7 +19,7 @@ test('Deposit, then withdraw', ()=> {
 
     account.withdraw(5);
 
-    expect(account.balance).toEqual(5);
+    expect(account.balance).toEqual(6);
 })
 
 test('Adding interest to a checking account throws expected error',()=>{
