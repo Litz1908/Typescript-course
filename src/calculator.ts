@@ -1,15 +1,13 @@
-export class Calculator 
-//export class Account
-{
-
-    private total: number;
-    
-    constructor() {
-        this.total = 0;
-    }
+export class Calculator {  
+  
+    private _total: number;  
       
-    get total() { (property)Calculator._total: number
-        return this._total;
-    }
-    
-}
+    constructor() {  
+        this._total = 0;  
+    }  
+        
+    get total(): number {  
+        return this._total;  
+    }  
+      
+} 
